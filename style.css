@@ -1,0 +1,15 @@
+h3{
+font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+     animation-name: clown;
+     animation-duration: 4;
+     animation-iteration-count: infinite;
+}
+@keyframes clown{
+    from{box-shadow: 1px 1px 40px red;}
+    to  {box-shadow: 1px 1px 40px yellow;}
+}
